@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: #333;
+    font-size: 2.2em;
+}
+
+p{
+    line-height: 1.6;
+    color: #555;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+li{
+    line-height: 1.6;
+    color: #555;
+    font-align: justify;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    color: #db3636;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+#box-central {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#box-intro{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#box-intro ul {
+    column-count: 2;
+    column-gap: 25%;
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#box-intro li {
+    display:flex;
+    margin-bottom: 5px; /* Espaço entre os itens */
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+#box-intro img {
+    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto;
+    border-radius: 5px; /* Opcional: arredonda os cantos da imagem */
+    object-fit: contain;
+}
+
+#box-intro li  span {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#box-lista{
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+#box-preparo {
+    max-width: 700px;      
+    margin: 40px auto;     
+    padding: 0 20px;
+}
+
+/* Título Principal (Modo de preparo) */
+#box-preparo h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 40px;   /* Espaço grande abaixo do título */
+    border-bottom: 2px solid #db3636; /* Linha vermelha embaixo (opcional) */
+    padding-bottom: 10px;
+    display: inline-block; /* Faz a linha ter o tamanho do texto */
+    width: 100%;           /* Ou ocupa 100% se preferir */
+}
+
+/* Subtítulos (1. Lasanha, 2. Molho...) */
+#box-preparo h4 {
+    color: #db3636;        /* Usa a cor vermelha de destaque */
+    font-size: 1.2em;
+    margin-top: 30px;      /* Afasta do texto anterior */
+    margin-bottom: 10px;   /* Aproxima do texto seguinte */
+    font-family: Arial, sans-serif;
+}
+
+/* Parágrafos (O texto do passo a passo) */
+#box-preparo p {
+    line-height: 1.7;      /* Aumenta o espaço entre linhas para leitura */
+    color: #444;           /* Cinza um pouco mais escuro */
+    font-family: Arial, sans-serif;
+    text-align: left;      /* Alinhado à esquerda (mais natural) */
+    margin-bottom: 20px;   /* Espaço entre um parágrafo e outro */
+}
+}
